@@ -1,0 +1,5 @@
+a = int(input())
+print(a // 1000, end = "")
+print(((a % 100) - (a % 100) % 10) // 10, end = "")
+print((a % 1000 - (a % 100)) // 100, end = "")
+print(a % 10)
